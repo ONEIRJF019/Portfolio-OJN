@@ -352,3 +352,9 @@ article h1{
     font-size: 14px;
     margin-top: 5px;
 }
+
+.contato-section {
+    padding: 2rem;
+    text-align: center;
+    background: #f7f7f7;
+}
