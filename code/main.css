@@ -358,3 +358,12 @@ article h1{
     text-align: center;
     background: #f7f7f7;
 }
+
+.titulo-contato {
+    font-size: 28px;
+    letter-spacing: 3px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-bottom: 50px;
+}
