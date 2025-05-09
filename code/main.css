@@ -374,3 +374,28 @@ article h1{
     color: #333;
     font-size: 14px;
 }
+
+.divisao {
+    width: 60px;
+    height: 3px;
+    background: black;
+    margin: 0 auto 2rem;
+}
+
+.form-contato {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.form-contato input,
+.form-contato textarea {
+    padding: 0.8rem 1rem;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    font-size: 14px;
+    resize: none;
+}
