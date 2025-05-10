@@ -399,3 +399,51 @@ article h1{
     font-size: 14px;
     resize: none;
 }
+
+.form-contato button {
+    width: 10em;
+    position: relative;
+    align-self: center;
+    height: 3.5em;
+    border: 3px ridge #6246ea;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.form-contato button::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    transition: 0.5s;
+    transform-origin: center;
+}
+
+.form-contato button::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    transition: 0.5s;
+}
+
+.form-contato button:hover::before,
+button:hover::after {
+    transform: scale(0);
+}
+
+button:hover {
+    box-shadow: inset 0px 0px 25px #6246ea;
+}
