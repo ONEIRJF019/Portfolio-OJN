@@ -365,21 +365,21 @@ article h1{
     border: 2px solid black;
     display: inline-block;
     padding: 10px 30px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .descicao-contato {
     max-width: 600px;
     margin: 1rem auto 2rem;
     color: #333;
-    font-size: 14px;
+    font-size: 24px;
 }
 
 .divisao {
     width: 60px;
     height: 3px;
     background: black;
-    margin: 0 auto 2rem;
+    margin: 16px auto 2rem;
 }
 
 .form-contato {
@@ -446,4 +446,33 @@ button:hover::after {
 
 button:hover {
     box-shadow: inset 0px 0px 25px #6246ea;
+}
+
+.footer {
+    background-color: rgb(3, 3, 3);
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.back-to-top {
+    display: block;
+    margin-bottom: 2.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.direitos {
+    margin-top: 2rem;
+    font-size: 12px;
+    color: #ccc;
 }
