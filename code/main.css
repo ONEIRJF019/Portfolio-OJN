@@ -157,6 +157,7 @@ article h1{
 .projetos-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 150px;
     gap: 2rem;
     padding: 2rem;
 }
@@ -290,6 +291,7 @@ article h1{
 .skills-section {
     text-align: center;
     margin: 80px auto;
+    margin-top: 200px;
     max-width: 1000px;
 }
 
