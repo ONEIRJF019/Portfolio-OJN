@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" type="image/x-icon" href="/public/images/Logos/logo_OJN-removebg-preview.png" />
+<title>Obrigado!</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: linear-gradient(135deg, #1a1a2e, #16213e);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        }
+    
+        .obrigado- {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            padding: 1rem;
+        }
+
+    .container {
+        max-width: 600px;
+        padding: 2rem;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 20px rgba(98, 70, 234, 0.3);
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: #6246ea;
+    }
+
+    p {
+        font-size: 1.1rem;
+        color: #ffffff;
+    }
+
+    .back-btn {
+        display: inline-block;
+        margin-top: 2rem;
+        padding: 0.75rem 2rem;
+        border: none;
+        border-radius: 30px;
+        background-color: #6246ea;
+        color: #fff;
+        font-weight: bold;
+        text-decoration: none;
+        transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .back-btn:hover {
+        background-color: #4834d4;
+        transform: translateY(-2px);
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    .footer {
+    background-color: rgb(3, 3, 3);
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+    .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.5s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2)
+}
+
+.social-icons a:hover {
+    box-shadow: 0 8px 20px #2b00ff;
+}
+
+.direitos {
+    margin-top: 2rem;
+    font-size: 12px;
+    color: #ccc;
+}
+</style>
+</head>
+
+<body>
+    <article class="obrigado-">
+        <div class="container">
+            <h1>Obrigado! 🎉</h1>
+            <p>Seu formulário foi enviado com sucesso. <br>
+            Em breve entrarei em contato com você.</p>
+            <a class="back-btn" href="#">Voltar para o início</a>
+        </div>
+    </article>
+    
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://github.com/ONEIRJF019"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/oneir-j%C3%BAnior-503b8b341/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/neiro.018/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <p class="direitos">&copy;2025 OJN - Oneir Júnior. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
