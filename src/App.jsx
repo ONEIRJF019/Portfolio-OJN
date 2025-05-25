@@ -74,10 +74,11 @@ const About = () => {
                     <br />
                     <p>Sou Desenvolvedor FullStack. Tenho uma enorme busca e vontade de transformar ideias em soluções digitais eficazes. Além disso, sou cristão e gosto bastante de ensinar e aprender</p>
                     <br />
-                    <p>Hoje, como desenvolvedor full-stack em formação, possuo conhecimentos básicos em linguagens e tecnologias como Java, Bootstrap, JavaScript, React, Node.js e Git. Embora esteja em um estágio inicial, tenho um enorme desejo de crescer e contribuir para o sucesso da empresa. Sou comunicativo, social e tenho facilidade em aprender, o que me permite adaptar rapidamente a novas ferramentas e desafios do setor.</p>
+                    <p>Hoje, como desenvolvedor full-stack em formação, possuo conhecimentos básicos em linguagens e tecnologias como Java, Bootstrap, JavaScript, React, Node.js e Git. Embora esteja em um estágio inicial, tenho um enorme desejo de crescer e contribuir para o sucesso da empresa. </p>
+                    <br />
+                    <p>O que me diferencia é a combinação entre habilidades técnicas e um perfil humano colaborativo. Sou proativo, comprometido e comunicativo, com experiência prévia em áreas como edição de vídeo, design gráfico e marketing. Essa bagagem me permite enxergar além do código: compreendo o impacto visual, funcional e estratégico de cada entrega em um produto digital. </p>
                     <br />
                     <p>Estou motivado a colaborar com soluções criativas e eficientes, utilizando minhas habilidades para contribuir com projetos de impacto. Meu objetivo é crescer profissionalmente junto com a empresa, evoluindo como desenvolvedor e entregando valor por meio da tecnologia.</p>
-                    <p>Atualmente, estou cursando Engenharia de Software para aprofundar ainda mais meus conhecimentos. Se você está buscando um parceiro para levar seu negócio online ao próximo nível!</p>
                 </div>
             </div>
         </article>
@@ -136,7 +137,7 @@ const Skills = () => {
             { name: 'JavaScript', icon: 'javascript/javascript-original.svg' },
             { name: 'Bootstrap', icon: 'bootstrap/bootstrap-original.svg' },
             { name: 'Git', icon: 'git/git-original.svg' },
-            { name: 'Figma', icon: 'figma/figma-original.svg' },
+            { name: 'React', icon: 'react/react-original.svg' },
             { name: 'Java', icon: 'java/java-original.svg' },
         ],
         learning: [
@@ -274,8 +275,7 @@ const Contact = () => {
                         onChange={handleChange}
                     ></textarea>
                     
-                    <input type="hidden" name="_next" value="#" />
-                    <input type="hidden" name="_captcha" value="false" />
+                    <input type="hidden" name="_next" value="https://68333e64030a7100084d28a7--ojn-portfolio-oneirjunior.netlify.app/thanks.html" />
                     <button type="submit">ENVIAR</button>
                 </form>
             </div>
